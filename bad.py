@@ -20,7 +20,7 @@ def fortune_teller():
             "Watch out for all signs!",
             "Good news is headed your way!"
         ]
-        # Bad practice: Repetitive code. 
+        # Bad practice: Repetitive code. This is not how you should code
         print(f"{name}, your fortune is: {random.choice(fortunes)}")
 
 # Bad practice: The entire logic is crammed into one large block of the code.
