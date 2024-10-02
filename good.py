@@ -18,7 +18,7 @@ def pick_random_fortune():
     ]
     return random.choice(fortune_list)
 
-# Function to show fortune with a slightly different format
+# Function shhows different format
 def show_fortune(name, fortune):
     print(f"Hello {name}, here’s your fortune: \"{fortune}\"")
 
